@@ -22,7 +22,7 @@ class GarminExercisesCollector:
         self.equipment_url = f"{self.base_url}web-data/exercises/exerciseToEquipments.json"
         self.detailed_data_based_url = f"{self.base_url}web-data/exercises/{self.locale}/"
         self.detailed_page_based_url = f"{self.base_url}modern/exercises/"
-        self.translations_url = f"{self.base_url}web-translations/exercise_types/exercise_types.properties"
+        self.translations_url = f"{self.base_url}web-translations/exercise_types/exercise_types_cs.properties"
 
         
         # Cache for translations
